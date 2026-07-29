@@ -8,6 +8,8 @@ Most of my work is live software with real users, billing, and uptime concerns r
 
 ## What I'm running
 
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/431b77e7-c136-4b1f-86bb-98fd45c97b2f" />
+
 ### [zapifyapi.com](https://zapifyapi.com) — Image Conversion API
 
 A token-metered HTTP API that converts PNG/JPEG to WEBP in a single authenticated request.
@@ -21,6 +23,7 @@ A token-metered HTTP API that converts PNG/JPEG to WEBP in a single authenticate
 **Stack:** PHP · JavaScript · MySQL · REST
 
 ---
+<img width="250" height="250" alt="Untitled 5" src="https://github.com/user-attachments/assets/5205ef67-2b84-41f4-81fe-6c68ad5d0d79" />
 
 ### [playfree.uk](https://playfree.uk) — On-Demand Game Server Hosting
 
