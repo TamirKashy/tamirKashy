@@ -8,7 +8,7 @@ Most of my work is live software with real users, billing, and uptime concerns r
 
 ## What I'm running
 
-<img src="zapifyapi.png" alt="Zapify API dashboard" width="400">
+<a href="ttps://zapifyapi.com"><img src="zapifyapi.png" alt="Zapify API dashboard" width="400"></a>
 
 ### [zapifyapi.com](https://zapifyapi.com) — Image Conversion API
 
@@ -23,7 +23,7 @@ A token-metered HTTP API that converts PNG/JPEG to WEBP in a single authenticate
 **Stack:** PHP · JavaScript · MySQL · REST
 
 ---
-<img src="Playfree.png" alt="playfree.uk server dashboard" width="400">
+<a href="ttps://playfree.uk"><img src="Playfree.png" alt="playfree.uk server dashboard" width="400"></a>
 
 ### [playfree.uk](https://playfree.uk) — On-Demand Game Server Hosting
 
