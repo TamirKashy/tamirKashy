@@ -2,7 +2,7 @@
 
 **Computer Science undergraduate (HIT, expected 2027). I build and run production web services.**
 
-Most of my work is live software with real users, billing, and uptime concerns rather than practice projects. The product source is private, but the systems themselves are public — you can sign up and use both of them right now.
+Most of my work is live software with real users, billing, and uptime concerns rather than practice projects. You can sign up and use both of the products below right now, and the MCP server is published on npm.
 
 ---
 
@@ -10,19 +10,35 @@ Most of my work is live software with real users, billing, and uptime concerns r
 
 [<img src="zapifyapi.png" alt="Zapify API dashboard" width="400">](https://zapifyapi.com)
 
-### [zapifyapi.com](https://zapifyapi.com) — Image Conversion API
+### [zapifyapi.com](https://zapifyapi.com) — Multi-API Platform & MCP Server
 
-A token-metered HTTP API that converts PNG/JPEG to WEBP in a single authenticated request.
+A self-serve API platform hosting 30 tools across image processing, NLP, network diagnostics, developer utilities and data conversion — with an API store, per-project keys, and a points-based metering system.
 
-- Bearer API-key authentication, per-key rate limiting, and signed URLs
-- Token metering with per-request deduction, pay-as-you-go packs, and tiered subscriptions gating premium endpoints
-- Self-serve dashboard for signup, API-key management, and live usage tracking
-- Direct ingest from S3/GCS; conversion parameters for quality, resize, background fill, and metadata stripping
-- Responses expose rate-limit, token-balance, and request-ID headers so clients can back off and trace failures
+- **MCP server published on npm** as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server) — exposes all 30 tools to AI agents over stdio. Works with Claude Desktop, Kiro, and any MCP-compatible client.
+- **Agent discovery endpoints** — MCP manifest, OpenAI `ai-plugin.json`, and an OpenAPI spec, so agents can find and integrate the platform without manual configuration.
+- **Auth and metering** — Bearer API-key authentication, per-key rate limiting, signed URLs, and per-request point deduction with pay-as-you-go packs and subscription tiers.
+- **Project model** — separate API keys and point balances per project, with a self-serve dashboard for key management and live usage.
 
-**Stack:** PHP · JavaScript · MySQL · REST
+**Stack:** PHP · JavaScript · TypeScript · MySQL · MCP SDK
+
+Drop this into your MCP client config and all 30 tools are available to the agent:
+
+```json
+{
+  "mcpServers": {
+    "zapifyapi": {
+      "command": "npx",
+      "args": ["@zapifyapi/mcp-server"],
+      "env": { "ZAPIFYAPI_TOKEN": "your_token" }
+    }
+  }
+}
+```
+
+[Docs](https://zapifyapi.com/docs/guide-mcp) · [Get a free token](https://zapifyapi.com/signup) — free plan includes 1,000 points/month
 
 ---
+
 [<img src="Playfree.png" alt="playfree.uk server dashboard" width="400">](https://playfree.uk)
 
 ### [playfree.uk](https://playfree.uk) — On-Demand Game Server Hosting
@@ -50,15 +66,15 @@ That background is why I tend to think about the deployment and operating cost o
 ## Currently
 
 - **B.Sc. Computer Science, Holon Institute of Technology** — Machine Learning, Computability & Complexity, Automata & Formal Languages
-- Building an AI image-description endpoint for Zapify, running a self-hosted vision model behind the existing metering and rate-limiting layer
+- Extending the ZapifyAPI tool catalogue and its MCP integration
 
-**Working with:** C# / .NET · PHP · JavaScript / Next.js · Python · C / C++ · SQL · MongoDB · Docker · Linux
+**Working with:** TypeScript · PHP · JavaScript / Next.js · C# / .NET · Python · C / C++ · SQL · MongoDB · Docker · Linux · MCP
 
 ---
 
 ## A note on private repositories
 
-Most repos here are private — they're either client work or the source behind the products above. I'm happy to walk through architecture, design decisions, or code directly in an interview.
+Most repos here are private — they're either client work or the source behind the products above. The MCP server is published publicly on npm as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server). I'm happy to walk through architecture, design decisions, or code directly in an interview.
 
 ---
 
