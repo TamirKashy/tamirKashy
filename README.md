@@ -12,16 +12,16 @@ Most of my work is live software with real users, billing, and uptime concerns r
 
 ### [zapifyapi.com](https://zapifyapi.com) — Multi-API Platform & MCP Server
 
-A self-serve API platform hosting 30 tools across image processing, NLP, network diagnostics, developer utilities and data conversion — with an API store, per-project keys, and a points-based metering system.
+A self-serve API platform hosting 40+ APIs across image processing, NLP, network diagnostics, developer utilities and data conversion — with an API store, per-project keys, and a points-based metering system.
 
-- **MCP server published on npm** as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server) — exposes all 30 tools to AI agents over stdio. Works with Claude Desktop, Kiro, and any MCP-compatible client.
+- **MCP server published on npm** as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server) ([source](https://github.com/TamirKashy/zapifyapi-mcp-server)) — exposes 32 agent-ready tools over stdio, selected from the catalogue for inputs a model can construct and outputs it can reason about. Works with Claude Desktop, Kiro, and any MCP-compatible client.
 - **Agent discovery endpoints** — MCP manifest, OpenAI `ai-plugin.json`, and an OpenAPI spec, so agents can find and integrate the platform without manual configuration.
 - **Auth and metering** — Bearer API-key authentication, per-key rate limiting, signed URLs, and per-request point deduction with pay-as-you-go packs and subscription tiers.
 - **Project model** — separate API keys and point balances per project, with a self-serve dashboard for key management and live usage.
 
 **Stack:** PHP · JavaScript · TypeScript · MySQL · MCP SDK
 
-Drop this into your MCP client config and all 30 tools are available to the agent:
+Drop this into your MCP client config and all 32 tools are available to the agent:
 
 ```json
 {
@@ -74,7 +74,7 @@ That background is why I tend to think about the deployment and operating cost o
 
 ## A note on private repositories
 
-Most repos here are private — they're either client work or the source behind the products above. The MCP server is published publicly on npm as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server). I'm happy to walk through architecture, design decisions, or code directly in an interview.
+Most repos here are private — they're either client work or the source behind the products above. The exception is [zapifyapi-mcp-server](https://github.com/TamirKashy/zapifyapi-mcp-server), which is public and [published on npm](https://www.npmjs.com/package/@zapifyapi/mcp-server). I'm happy to walk through architecture, design decisions, or code directly in an interview.
 
 ---
 
