@@ -75,6 +75,19 @@ Free Minecraft Java server hosting that provisions an isolated server per user i
 
 ---
 
+## The infrastructure underneath
+[<img src="hovixa.png" alt="Hovixa Hosting platrform store page" width="400">](https://hovixa.com)
+All of the above runs on [Hovixa](https://hovixa.com), a hosting platform I build and operate. I rent bare metal from OVH; everything above the hardware is mine:
+
+- **Virtualization** — SolusVM for VPS provisioning, resource allocation and network configuration
+- **Web hosting** — cPanel/WHM for shared and WordPress hosting, with DNS and SSL
+- **Backups** — a dedicated backup server behind an IP allowlist, isolated from the hosting network so compromising the hosting layer doesn't reach the backups
+- **Billing and client area** — WHMCS today, with a self-built portal planned to replace it
+
+Currently serving my own projects. Running the metal is why I think about capacity and operating cost when I design something, instead of treating deployment as somebody else's problem.
+
+---
+
 ## Background
 
 Three years of enterprise IT and networking field work before and alongside my degree — Centrex IP telephony deployments, voice VLAN and QoS design, and nationwide hardware rollouts for enterprise clients including Strauss Group and Microsoft. At Strauss I built an automated network-based imaging pipeline that scaled concurrent device provisioning from 2 to 10+.
@@ -86,9 +99,9 @@ That background is why I tend to think about the deployment and operating cost o
 ## Currently
 
 - **B.Sc. Computer Science, Holon Institute of Technology** — Machine Learning, Computability & Complexity, Automata & Formal Languages
-- Extending the ZapifyAPI tool catalogue and its MCP integration
+- Building ZapTicket, and extending the ZapifyAPI tool catalogue and its MCP integration
 
-**Working with:** TypeScript · PHP · JavaScript / Next.js · C# / .NET · Python · C / C++ · SQL · MongoDB · Docker · Linux · MCP
+**Working with:** C# / .NET · TypeScript · PHP · JavaScript / Next.js · Node.js · Python · C / C++ · SQL · MongoDB · SignalR · Docker · Linux · MCP
 
 ---
 
