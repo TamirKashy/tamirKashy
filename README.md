@@ -39,7 +39,7 @@ Drop this into your MCP client config and all 32 tools are available to the agen
 
 ---
 
-[<img src="zapifyticket.png" alt="Zapticket Platform" width="400">](https://zapifyticket.app)
+[<img src="zapticket.png" alt="Zapticket Platform" width="400">](https://zapticket.app)
 
 ### [zapticket.app](https://zapticket.app) — Live Chat & Ticketing Platform
 
