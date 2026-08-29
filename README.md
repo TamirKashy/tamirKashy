@@ -74,9 +74,10 @@ Free Minecraft Java server hosting that provisions an isolated server per user i
 **Stack:** Next.js · PHP · Docker · Pterodactyl · Coolify
 
 ---
+[<img src="hovixa.png" alt="Hovixa Hosting platrform store page" width="400">](https://hovixa.com)
 
 ## The infrastructure underneath
-[<img src="hovixa.png" alt="Hovixa Hosting platrform store page" width="400">](https://hovixa.com)
+
 All of the above runs on [Hovixa](https://hovixa.com), a hosting platform I build and operate. I rent bare metal from OVH; everything above the hardware is mine:
 
 - **Virtualization** — SolusVM for VPS provisioning, resource allocation and network configuration
