@@ -39,7 +39,7 @@ Drop this into your MCP client config and every tool becomes available to the ag
 
 ---
 
-[<img src="zapticket.png" alt="Zapticket Platform" width="400">](https://zapticket.app)
+[<img src="zapticket.png" alt="ZapTicket dashboard" width="400">](https://zapticket.app)
 
 ### [zapticket.app](https://zapticket.app) — Live Chat & Ticketing Platform
 
@@ -58,7 +58,6 @@ A multi-tenant live chat and ticketing SaaS. Sites embed a chat widget with two 
 
 ---
 
-
 [<img src="Playfree.png" alt="playfree.uk server dashboard" width="400">](https://playfree.uk)
 
 ### [playfree.uk](https://playfree.uk) — On-Demand Game Server Hosting
@@ -74,7 +73,8 @@ Free Minecraft Java server hosting that provisions an isolated server per user i
 **Stack:** TypeScript · Next.js · PHP · Docker · Pterodactyl · Coolify
 
 ---
-[<img src="hovixa.png" alt="Hovixa Hosting platrform store page" width="400">](https://hovixa.com)
+
+[<img src="hovixa.png" alt="Hovixa hosting platform store page" width="400">](https://hovixa.com)
 
 ## The infrastructure underneath
 
@@ -93,9 +93,7 @@ Currently serving my own projects. Running the metal is why I think about capaci
 
 Three years of enterprise IT and networking field work before and alongside my degree — Centrex IP telephony deployments, voice VLAN and QoS design, and nationwide hardware rollouts for enterprise clients including Strauss Group and Microsoft. At Strauss I built an automated network-based imaging pipeline that scaled concurrent device provisioning from 2 to 10+.
 
-That background is why I tend to think about the deployment and operating cost of a system, not just the code.
-
----
+--
 
 ## Currently
 
