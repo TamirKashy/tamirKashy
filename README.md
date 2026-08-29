@@ -39,6 +39,26 @@ Drop this into your MCP client config and all 32 tools are available to the agen
 
 ---
 
+[<img src="zapifyticket.png" alt="Zapticket Platform" width="400">](https://zapifyticket.app)
+
+### [zapticket.app](https://zapticket.app) — Live Chat & Ticketing Platform
+
+A multi-tenant live chat and ticketing SaaS. Sites embed a chat widget with two lines of script; conversations arrive in a real-time inbox and convert to trackable tickets.
+
+- **Real-time over SignalR** — widget and dashboard both hold persistent WebSocket connections, so messages land in milliseconds rather than polling.
+- **Multi-tenant isolation enforced at the database layer** — a global query filter scopes every request to its workspace, so cross-tenant leakage isn't possible from application code.
+- **Presence tracking with offline fallback** — the system knows which agents are connected; when nobody is, the widget switches itself to a ticket form and routes to email.
+- **Runtime-configured widget** — colours, greeting and position are fetched from the API, so branding changes take effect on the next page load with no redeploy.
+- **Async CDN-delivered embed** — the widget loads without blocking the host page.
+- **Ticketing** — chat-to-ticket conversion with priorities, assignments, tags and internal notes, plus a REST API and documentation site.
+
+**Stack:** C# · .NET · SignalR · Node.js · REST API
+
+[Docs](https://docs.zapticket.app) · [Live](https://zapticket.app)
+
+---
+
+
 [<img src="Playfree.png" alt="playfree.uk server dashboard" width="400">](https://playfree.uk)
 
 ### [playfree.uk](https://playfree.uk) — On-Demand Game Server Hosting
