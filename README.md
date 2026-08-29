@@ -2,7 +2,7 @@
 
 **Computer Science undergraduate (HIT, expected 2027). I build and run production web services.**
 
-Most of my work is live software with real users, billing, and uptime concerns rather than practice projects. You can sign up and use both of the products below right now, and the MCP server is published on npm.
+Most of my work is live software with real users, billing, and uptime concerns rather than practice projects. You can sign up and use all three of the products below right now, and the MCP server is published on npm.
 
 ---
 
@@ -14,14 +14,14 @@ Most of my work is live software with real users, billing, and uptime concerns r
 
 A self-serve API platform hosting 40+ APIs across image processing, NLP, network diagnostics, developer utilities and data conversion — with an API store, per-project keys, and a points-based metering system.
 
-- **MCP server published on npm** as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server) ([source](https://github.com/TamirKashy/zapifyapi-mcp-server)) — exposes 32 agent-ready tools over stdio, selected from the catalogue for inputs a model can construct and outputs it can reason about. Works with Claude Desktop, Kiro, and any MCP-compatible client.
+- **MCP server published on npm** as [`@zapifyapi/mcp-server`](https://www.npmjs.com/package/@zapifyapi/mcp-server) ([source](https://github.com/TamirKashy/zapifyapi-mcp-server)) — exposes 30+ agent-ready tools over stdio, selected from the catalogue for inputs a model can construct and outputs it can reason about. Works with Claude Desktop, Kiro, and any MCP-compatible client.
 - **Agent discovery endpoints** — MCP manifest, OpenAI `ai-plugin.json`, and an OpenAPI spec, so agents can find and integrate the platform without manual configuration.
 - **Auth and metering** — Bearer API-key authentication, per-key rate limiting, signed URLs, and per-request point deduction with pay-as-you-go packs and subscription tiers.
 - **Project model** — separate API keys and point balances per project, with a self-serve dashboard for key management and live usage.
 
-**Stack:** PHP · JavaScript · TypeScript · MySQL · MCP SDK
+**Stack:** PHP · JavaScript · Node.js · MySQL · MCP SDK
 
-Drop this into your MCP client config and all 32 tools are available to the agent:
+Drop this into your MCP client config and every tool becomes available to the agent:
 
 ```json
 {
@@ -71,7 +71,7 @@ Free Minecraft Java server hosting that provisions an isolated server per user i
 - Automated per-user subdomain allocation via DNS SRV records — players connect on a stable address with no IP or port
 - Live dashboard reporting servers online, queue depth, and active players
 
-**Stack:** Next.js · PHP · Docker · Pterodactyl · Coolify
+**Stack:** TypeScript · Next.js · PHP · Docker · Pterodactyl · Coolify
 
 ---
 [<img src="hovixa.png" alt="Hovixa Hosting platrform store page" width="400">](https://hovixa.com)
