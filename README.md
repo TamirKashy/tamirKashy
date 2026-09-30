@@ -10,7 +10,7 @@ Most of my work is live software with real users, billing, and uptime concerns r
 > Looking for a junior or student role in software engineering, backend, or DevOps/infrastructure — Israel or remote.
 
 ---
-[<img src="tamirkashy.png" alt="tamirkashy Portfolio & CV Assistant" width="400">](https://tamirkashy.com)
+[<img src="tamirkashy.png" alt="tamirkashy Portfolio & CV Assistant" width="250">](https://tamirkashy.com)
 ### [Personal Site](https://www.tamirkashy.com) — Portfolio & CV Assistant
 
 My portfolio site, with a retrieval-augmented chatbot answering questions about my background from my own CV and project documentation instead of a static PDF.
