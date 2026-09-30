@@ -25,7 +25,7 @@ My portfolio site, with a retrieval-augmented chatbot answering questions about 
 
 ## What I'm running
 
-[<img src="zapifyapi.png" alt="Zapify API dashboard" width="400">](https://zapifyapi.com)
+[<img src="zapifyapi.png" alt="Zapify API dashboard" width="250">](https://zapifyapi.com)
 
 ### [zapifyapi.com](https://zapifyapi.com) — Multi-API Platform & MCP Server
 
