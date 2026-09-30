@@ -10,6 +10,7 @@ Most of my work is live software with real users, billing, and uptime concerns r
 > Looking for a junior or student role in software engineering, backend, or DevOps/infrastructure — Israel or remote.
 
 ---
+## Who I'm
 [<img src="tamirkashy.png" alt="tamirkashy Portfolio & CV Assistant" width="250">](https://tamirkashy.com)
 ### [Personal Site](https://www.tamirkashy.com) — Portfolio & CV Assistant
 
