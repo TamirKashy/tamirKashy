@@ -4,6 +4,23 @@
 
 Most of my work is live software with real users, billing, and uptime concerns rather than practice projects. You can sign up and use all three of the products below right now, and the MCP server is published on npm.
 
+🌐 **[tamirkashy.com](https://www.tamirkashy.com)** — portfolio and CV, with an AI assistant you can ask about my experience
+📫 **tamirkashy13@gmail.com** · [LinkedIn](https://www.linkedin.com/in/tamir-shevchenko-kashy)
+
+> Looking for a junior or student role in software engineering, backend, or DevOps/infrastructure — Israel or remote.
+
+---
+[<img src="tamirkashy.png" alt="tamirkashy Portfolio & CV Assistant" width="400">](https://tamirkashy.com)
+### [Personal Site](https://www.tamirkashy.com) — Portfolio & CV Assistant
+
+My portfolio site, with a retrieval-augmented chatbot answering questions about my background from my own CV and project documentation instead of a static PDF.
+
+- Retrieval over my CV, project write-ups and experience, so answers are grounded in source material rather than generated from a prompt
+- Rate-limited public endpoint with bounded response length
+- Projects, skills, experience and contact details in plain HTML alongside the assistant, for anyone who would rather just read
+
+**Stack:** TypeScript
+
 ---
 
 ## What I'm running
@@ -93,7 +110,7 @@ Currently serving my own projects. Running the metal is why I think about capaci
 
 Three years of enterprise IT and networking field work before and alongside my degree — Centrex IP telephony deployments, voice VLAN and QoS design, and nationwide hardware rollouts for enterprise clients including Strauss Group and Microsoft. At Strauss I built an automated network-based imaging pipeline that scaled concurrent device provisioning from 2 to 10+.
 
---
+---
 
 ## Currently
 
@@ -110,4 +127,4 @@ Most repos here are private — they're either client work or the source behind 
 
 ---
 
-📫 **tamirkashy13@gmail.com** · [LinkedIn](https://www.linkedin.com/in/tamir-shevchenko-kashy)
+🌐 [tamirkashy.com](https://www.tamirkashy.com) · 📫 **tamirkashy13@gmail.com** · [LinkedIn](https://www.linkedin.com/in/tamir-shevchenko-kashy)
